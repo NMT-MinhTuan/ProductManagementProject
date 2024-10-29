@@ -1,0 +1,3 @@
+Window R nhập cmd để đi đến Terminal
+Nhập lệnh : netstat -ano | findstr :3000  (3000 là port ta đang sử dụng có thể thay thế bằng port khác mà bạn muốn kill port)
+Sau đó nhập lệnh : taskkill /PID <PID> /F để kill process. Lưu ý <PID> bạn phải thay thay bằng mã số LISTENING ở lệnh trên
